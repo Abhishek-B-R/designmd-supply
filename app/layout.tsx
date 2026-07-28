@@ -15,6 +15,10 @@ export const metadata: Metadata = {
     template: "%s — designmd.supply",
   },
   description: "A minimal supply of generated DESIGN.md for any domain.",
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function RootLayout({
